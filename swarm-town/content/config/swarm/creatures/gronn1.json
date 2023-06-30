@@ -1,0 +1,75 @@
+{
+	"gronn1":
+	{
+		"name" :
+		{
+			"plural" : "Gronns",
+			"singular" : "Gronn"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "swarm",
+		"aiValue" : 628,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 2750,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 65,
+			"min" : 35
+		},
+		"defense" : 21,
+		"fightValue" : 4435,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/gronn1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/gronn1mini.def",
+			"iconSmall" : "swarm/iconsSmall/gronn1s.bmp",
+			"iconLarge" : "swarm/iconsBig/gronn1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 175,
+		"level" : 7,
+		"upgrades":
+		[
+			"gronn2"
+		],
+		"sound" :
+		{
+			"attack" : "swarm/gronnatk.wav",
+			"defend" : "swarm/gronnhit.wav",
+			"killed" : "swarm/gronndie.wav",
+			"move" : "swarm/gronnwlk.wav",
+			"wince" : "swarm/gronnhit.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+
+		"nomorale" :
+			{
+				"type" : "NO_MORALE"
+			},
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+
+			"HPregenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"subtype" : 1,
+				"val" : 25
+			}
+		}
+	}
+}

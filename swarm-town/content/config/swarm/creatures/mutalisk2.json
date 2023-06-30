@@ -1,0 +1,79 @@
+{
+	"mutalisk2":
+	{
+		"name" :
+		{
+			"plural" : "Primal Mutalisks",
+			"singular" : "Primal Mutalisk"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "swarm",
+		"aiValue" : 729,
+		"attack" : 11,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 9
+		},
+		"defense" : 9,
+		"fightValue" : 689,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/mutalisk2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/mutalisk2mini.def",
+			"iconSmall" : "swarm/iconsSmall/mutalisk2s.bmp",
+			"iconLarge" : "swarm/iconsBig/mutalisk2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "swarm/battle/projectile/mutashot.def",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+        },
+
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+	    "shots" : 10,		
+		"sound" :
+		{
+			"attack" : "swarm/S206ATTK.wav",
+			"defend" : "swarm/S206DFND.wav",
+			"killed" : "swarm/S206KILL.wav",
+			"move"   : "swarm/S206MOVE.wav",
+			"wince"  : "swarm/S206WNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+		       "flying" :
+			{
+				"type" : "FLYING"
+			},
+			   "canshoot" :
+			{
+				"type" : "SHOOTER"
+			}
+        }
+	}
+}

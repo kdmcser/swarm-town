@@ -1,0 +1,123 @@
+{
+	"swarm" : {
+		"alignment" : "evil",
+		"creatureBackground" : { "120px" : "swarm/creature-bg-120px", "130px" : "swarm/creature-bg-130px" },
+		"name" : "Swarm",
+		"nativeTerrain" : "sand",
+		"town" :
+		{
+			"musicTheme" : "music/swarm/theme",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "swarm/town-screen/background",
+			"guildWindow": "swarm/town-screen/mage-guild",
+			"hallBackground": "swarm/thback/zergui.bmp",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ], [ "special1" ] ],
+				[ [ "special2" ], [ "special3" ], [ "special4" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3"] ],
+				[ [ "dwellingLvl4", "dwellingUpLvl4" ], [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ],  ]
+			],
+			"creatures" :
+			[
+				[ "larva", "drone" ],
+				[ "zergling", "zergling2" ],
+				[ "hydralisk1", "hydralisk2" ],
+				[ "mutalisk1", "mutalisk2" ],
+				[ "queen1", "queen2" ],
+				[ "lock1", "lock2"],
+				[ "gronn1", "gronn2" ]
+			],
+			"moatDamage" : 90,
+			"horde" : [ 2, 3 ],
+			"mageGuild" : 5,
+			"primaryResource" : "crystal",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "swarm/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "swarm/icons/hall-small.bmp",
+						"large" : "swarm/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "swarm/icons/hall-builded-small.bmp",
+						"large" : "swarm/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "swarm/icons/fort-small.bmp",
+						"large" : "swarm/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "swarm/icons/fort-builded-small.bmp",
+						"large" : "swarm/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "swarm/adventure-map/town-capitol.def" },
+					"castle" :  { "animation" : "swarm/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "swarm/adventure-map/town-citadel.def" },
+					"fort" :    { "animation" : "swarm/adventure-map/town-fort.def" },
+					"village" : { "animation" : "swarm/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				"Toxic Desert",
+				"Toxic Castle",
+				"Xanadu",
+				"Hangval",
+				"Jalina",
+				"Firios",
+				"Windhaven",
+				"Bathiere",
+				"Spring Falls",
+				"Gem Moor",
+				"Willow",
+				"New Forest",
+				"New Elfwind",
+				"Wenlan",
+				"Vintyl",
+				"Sylina",
+				"Hallin",
+				"Rael"
+			],
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 4,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+				"queen"    : 5
+			}
+		}
+	}
+}

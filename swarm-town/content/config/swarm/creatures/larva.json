@@ -1,0 +1,56 @@
+{
+	"larva":
+	{
+		"name" :
+		{
+			"plural" : "Larvae",
+			"singular" : "Larva"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "swarm",
+		"aiValue" : 75,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 110,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/larva.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/larvamini.def",
+			"iconSmall" : "swarm/iconsSmall/larvas.bmp",
+			"iconLarge" : "swarm/iconsBig/larval.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+		"upgrades":
+		[
+			"drone"
+		],
+		"sound" :
+		{
+			"attack" : "swarm/orcatk.wav",
+			"defend" : "swarm/orchit.wav",
+			"killed" : "swarm/orcdie.wav",
+			"move": "OORCMOVE.wav",
+			"wince" : "swarm/orchit.wav"
+		},
+		"speed" : 4
+	}
+}

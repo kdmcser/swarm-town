@@ -1,0 +1,56 @@
+{
+	"zergling":
+	{
+		"name" :
+		{
+			"plural" : "Zerglings",
+			"singular" : "Zergling"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "swarm",
+		"aiValue" : 293,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 260,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/zergling.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/zerglingmini.def",
+			"iconSmall" : "swarm/iconsSmall/zerglings.bmp",
+			"iconLarge" : "swarm/iconsBig/zerglingl.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"zergling2"
+		],
+		"sound" :
+		{
+			"attack" : "swarm/trollatk.wav",
+			"defend" : "swarm/trollhit.wav",
+			"killed" : "swarm/trolldie.wav",
+			"move"   : "OORCMOVE.wav",
+			"wince"  : "swarm/trollhit.wav",
+			"shoot"  : "OORCSHOT.wav",
+		},
+		"speed" : 6
+	}
+}

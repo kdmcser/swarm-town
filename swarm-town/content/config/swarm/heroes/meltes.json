@@ -1,0 +1,54 @@
+{
+	"meltes" :
+	{
+		"class" : "queen",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Meltes",
+			"biography" : "undetermined.",
+			"specialty" :
+			{
+				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "swarm/heroes/meltes/spec-small.png",
+			"specialtyLarge" : "swarm/heroes/meltes/spec-large.png",
+			"large" : "swarm/heroes/meltes/portrait-large.png",
+			"small" : "swarm/heroes/meltes/portrait-small.png"
+		},
+		"army" :
+		[
+			{ "creature" : "larva", "min" : 10, "max" : 15 },
+			{ "creature" : "zergling", "min" : 6, "max" : 9 },
+			{ "creature" : "hydralisk1", "min" : 4, "max" : 6}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		}
+	}
+}

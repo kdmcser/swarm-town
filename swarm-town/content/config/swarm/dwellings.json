@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"swSpawningPool" : {
+				"name" : "Spawning Pool",
+				"creatures" : [[ "larva" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			},
+			"swSporeColony" : {
+				"name" : "Spore Colony",
+				"creatures" : [[ "zergling" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+
+					}
+				}
+			},
+			"swHydraliskDen" : {
+				"name" : "Hydralisk Den",
+				"creatures" : [[ "hydralisk1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "swarm/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"swEvolutionChamber" : {
+				"name" : "Evolution Chamber",
+				"creatures" : [[ "mutalisk1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"swQueensLair" : {
+				"name" : "Queens Lair",
+				"creatures" : [[ "queen1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"swDefilerMound" : {
+				"name" : "Defiler Mound",
+				"creatures" : [[ "lock1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"swUltraliskCavern" : {
+				"name" : "Ultralisk Cavern",
+				"creatures" : [[ "gronn1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			},
+			"swInfestedCommandCenter" : {
+				"name" : "Infested Command Center",
+				"creatures" : [[ "gronn1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "swarm/adventure-map/dwelling-8.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			}
+		}		
+	}
+}

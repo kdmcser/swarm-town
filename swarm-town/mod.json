@@ -1,0 +1,63 @@
+{
+	"name" : "Swarm",
+	"description" : "Zerg Town",
+	"author" : "",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "0.1",
+	"modType" : "Town",
+
+	"factions" :
+	[
+		"config/swarm/town/buildings.json",
+		"config/swarm/town/faction.json",
+		"config/swarm/town/siege.json",
+		"config/swarm/town/spells.json",
+		"config/swarm/town/structures.json",
+		"config/swarm/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/swarm/creatures/larva.json",
+		"config/swarm/creatures/drone.json",
+		"config/swarm/creatures/zergling.json",
+		"config/swarm/creatures/zergling2.json",
+                "config/swarm/creatures/hydralisk1.json",
+		"config/swarm/creatures/hydralisk2.json",
+		"config/swarm/creatures/mutalisk1.json",
+		"config/swarm/creatures/mutalisk2.json",
+		"config/swarm/creatures/queen1.json",
+		"config/swarm/creatures/queen2.json",
+		"config/swarm/creatures/lock1.json",
+		"config/swarm/creatures/lock2.json",
+		"config/swarm/creatures/gronn1.json",
+		"config/swarm/creatures/gronn2.json",
+	],
+	"heroClasses" :
+	[
+
+		"config/swarm/classes/queen.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/swarm/heroes/charity.json",
+	        "config/swarm/heroes/cistrict.json",
+		"config/swarm/heroes/julian.json",
+		"config/swarm/heroes/karen.json",
+		"config/swarm/heroes/kastore.json",
+		"config/swarm/heroes/leane.json",
+		"config/swarm/heroes/maximus.json",
+		"config/swarm/heroes/meltes.json",
+		"config/swarm/heroes/minore.json",
+		"config/swarm/heroes/niclas.json",
+		"config/swarm/heroes/rengist.json",
+		"config/swarm/heroes/resurrecta.json",
+		"config/swarm/heroes/seprinteer.json",
+		"config/swarm/heroes/singhel.json",
+		"config/swarm/heroes/sunni.json",	
+		"config/swarm/heroes/tarkin.json"
+	],
+	"objects" : [ "config/swarm/dwellings" ]
+}

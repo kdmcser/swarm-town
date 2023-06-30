@@ -1,0 +1,52 @@
+{
+	"queen2":
+	{
+		"name" :
+		{
+			"plural" : "Primal Queens",
+			"singular" : "Primal Queen"
+		},
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"faction" : "swarm",
+		"aiValue" : 728,
+		"attack" : 14,
+		"doubleWide" : true,		
+		"hasDoubleWeek" : true,
+        "cost" : 
+		{
+			"gold" : 775
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 15
+		},
+		"defense" : 10,
+		"fightValue" : 1091,
+		"graphics" :
+		{
+			"animation" : "swarm/battle/queen1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "swarm/map/queen1mini.def",
+			"iconSmall" : "swarm/iconsSmall/queen1s.bmp",
+			"iconLarge" : "swarm/iconsBig/queen1l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "swarm/S204ATTK.wav",
+			"defend" : "swarm/S204DFND.wav",
+			"killed" : "swarm/S204KILL.wav",
+			"move"   : "swarm/S204MOVE.wav",
+			"wince"  : "swarm/S204WNCE.wav"
+		},
+		"speed" : 6
+	}
+}
