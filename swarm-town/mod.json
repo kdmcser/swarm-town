@@ -30,7 +30,7 @@
 		"config/swarm/creatures/drone.json",
 		"config/swarm/creatures/zergling.json",
 		"config/swarm/creatures/zergling2.json",
-                "config/swarm/creatures/hydralisk1.json",
+        "config/swarm/creatures/hydralisk1.json",
 		"config/swarm/creatures/hydralisk2.json",
 		"config/swarm/creatures/mutalisk1.json",
 		"config/swarm/creatures/mutalisk2.json",
@@ -39,7 +39,7 @@
 		"config/swarm/creatures/lock1.json",
 		"config/swarm/creatures/lock2.json",
 		"config/swarm/creatures/gronn1.json",
-		"config/swarm/creatures/gronn2.json",
+		"config/swarm/creatures/gronn2.json"
 	],
 	"heroClasses" :
 	[
@@ -51,7 +51,7 @@
 	"heroes" :
 	[
 		"config/swarm/heroes/charity.json",
-	        "config/swarm/heroes/cistrict.json",
+	    "config/swarm/heroes/cistrict.json",
 		"config/swarm/heroes/julian.json",
 		"config/swarm/heroes/karen.json",
 		"config/swarm/heroes/kastore.json",
