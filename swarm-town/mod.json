@@ -3,9 +3,17 @@
 	"description" : "Zerg Town",
 	"author" : "",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "0.1",
+	"version" : "0.11",
 	"modType" : "Town",
-
+	"compatibility" :
+	{
+		"min" : "1.4"
+	},
+	"changelog" :
+	{
+		"0.11"   : [ "Updated to vcmi-1.4 mod" ],
+		"0.10"   : [ "Initial release" ]
+	},
 	"factions" :
 	[
 		"config/swarm/town/buildings.json",

@@ -67,7 +67,6 @@
 			"HPregenerate" : 
 			{
 				"type" : "HP_REGENERATION",
-				"subtype" : 1,
 				"val" : 25
 			}
 		}
