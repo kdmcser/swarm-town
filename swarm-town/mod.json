@@ -14,6 +14,13 @@
 		"0.11"   : [ "Updated to vcmi-1.4 mod" ],
 		"0.10"   : [ "Initial release" ]
 	},
+	"chinese" : {
+		"name" : "虫群",
+		"description" : "异虫城镇",
+		"translations" : [
+			"translation/swarm/chinese.json"
+		]
+	},
 	"factions" :
 	[
 		"config/swarm/town/buildings.json",
